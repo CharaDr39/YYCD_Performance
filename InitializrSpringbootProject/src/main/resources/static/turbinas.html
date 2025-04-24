@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Turbinas - YYCD_Performance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #121212;
+      font-family: 'Roboto', sans-serif;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    header {
+      background: #1e1e1e;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid #00bdbb;
+    }
+    .logo {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.8rem;
+      color: #00bdbb;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+    nav ul li {
+      margin-left: 20px;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+    nav ul li:hover {
+      color: #00bdbb;
+    }
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.5rem;
+      text-align: center;
+      margin: 40px 0;
+      color: #00bdbb;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .image-section {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .image-section img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid #00bdbb;
+      border-radius: 10px;
+    }
+    .description {
+      background: #1e1e1e;
+      padding: 30px;
+      border-radius: 10px;
+      border-left: 4px solid #00bdbb;
+      margin-bottom: 40px;
+    }
+    .description h2 {
+      color: #00bdbb;
+      margin-bottom: 15px;
+    }
+    .description p {
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+    }
+    .product-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #00bdbb;
+      text-align: center;
+    }
+    .product h3 {
+      color: #00bdbb;
+      margin-bottom: 10px;
+    }
+    .product p {
+      font-size: 0.95rem;
+      margin-bottom: 10px;
+    }
+    .price {
+      color: #ffffff;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    footer {
+      background: #1e1e1e;
+      text-align: center;
+      padding: 20px;
+      border-top: 2px solid #00bdbb;
+      font-size: 0.9rem;
+      color: #aaa;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">YYCD_Performance</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="review.html">Reviews</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>Turbinas</h1>
+
+  <div class="container">
+    <div class="image-section">
+      <img src="/img/Turbinas.png" alt="Servicio de Turbinas">
+    </div>
+    <div class="description">
+      <h2>Potencia al máximo nivel</h2>
+      <p>En <strong>YYCD_Performance</strong> llevamos el rendimiento de tu motor al siguiente nivel con nuestros sistemas de turbinas de alta eficiencia. Nuestros kits de inducción forzada están diseñados para brindar una mayor potencia, mejor respuesta y una experiencia de conducción sin igual.</p>
+      <p>Instalamos turbocompresores modernos y componentes complementarios como intercoolers, válvulas de descarga y sistemas de gestión electrónica adaptados a tu vehículo.</p>
+      <p>Ya sea que busques mejorar el desempeño en la pista o simplemente disfrutar de un manejo más emocionante, tenemos la solución ideal para tu auto.</p>
+    </div>
+
+    <h2 style="color: #00bdbb; margin-bottom: 20px;">Productos y Precios</h2>
+    <div class="product-list">
+      <div class="product">
+        <h3>Turbo Kit Stage 1</h3>
+        <p>Ideal para mejoras moderadas de potencia. Incluye instalación.</p>
+        <div class="price">₡30.000</div>
+      </div>
+      <div class="product">
+        <h3>Turbo Kit Stage 2</h3>
+        <p>Mayor presión y eficiencia para autos deportivos.</p>
+        <div class="price">₡50.000</div>
+      </div>
+      <div class="product">
+        <h3>Intercooler de Alto Flujo</h3>
+        <p>Optimiza la refrigeración del sistema turbo.</p>
+        <div class="price">₡40.000</div>
+      </div>
+      <div class="product">
+        <h3>Válvula de descarga (Blow-Off)</h3>
+        <p>Reduce el retardo del turbo y mejora la respuesta.</p>
+        <div class="price">₡28.000</div>
+      </div>
+      <div class="product">
+        <h3>ECU Programada</h3>
+        <p>Mapeo personalizado para rendimiento óptimo.</p>
+        <div class="price">₡28.000</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 YYCD_Performance. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+
+
+
