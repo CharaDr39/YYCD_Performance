@@ -181,7 +181,8 @@
     </div>
     
     <div class="form-container">
-      <form id="cotizacionForm" action="/procesar-cotizacion" method="post">
+      <!-- FORMULARIO CORREGIDO: GET directo al HTML estático -->
+      <form id="cotizacionForm" action="/procesar-cotizacion.html" method="get">
         <div class="form-row">
           <div class="form-group">
             <label for="nombre">Nombre completo</label>
@@ -206,13 +207,13 @@
         
         <div class="form-group">
           <label for="marca">Marca del vehículo</label>
-          <input type="text" id="marca" name="marca" required>
+          <input type="text" id="marca" name="marcaVehiculo" required>
         </div>
         
         <div class="form-row">
           <div class="form-group">
             <label for="modelo">Modelo</label>
-            <input type="text" id="modelo" name="modelo" required>
+            <input type="text" id="modelo" name="modeloVehiculo" required>
           </div>
           <div class="form-group">
             <label for="anio">Año</label>

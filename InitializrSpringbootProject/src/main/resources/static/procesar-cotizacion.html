@@ -1,0 +1,52 @@
+<!-- src/main/resources/static/procesar-cotizacion.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Procesar Cotización - YYCD_Performance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { background:#121212; color:#e0e0e0; font-family:'Roboto',sans-serif; display:flex; flex-direction:column; min-height:100vh; }
+    header, footer { background:#1e1e1e; padding:20px; text-align:center; }
+    .logo { font-family:'Orbitron',sans-serif; color:#00bdbb; font-size:1.8rem; }
+    nav ul { list-style:none; display:flex; justify-content:center; gap:20px; margin-top:10px; }
+    nav a { color:inherit; text-decoration:none; transition:color .3s; }
+    nav a:hover { color:#00bdbb; }
+    main { flex:1; display:flex; align-items:center; justify-content:center; padding:40px; }
+    .message { background:#242424; border:1px solid #00bdbb; border-radius:8px; padding:30px; text-align:center; }
+    .message h2 { font-family:'Orbitron',sans-serif; color:#00bdbb; margin-bottom:20px; }
+    .message p { margin-bottom:20px; }
+    .btn { background:#00bdbb; color:#121212; padding:10px 20px; border:none; border-radius:6px; font-weight:bold; text-decoration:none; transition:background .3s; }
+    .btn:hover { background:#00a3a2; }
+    footer p { color:#aaa; font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">YYCD_Performance</div>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="/servicios.html">Servicios</a></li>
+        <li><a href="/cotizar.html">Cotizar</a></li>
+        <li><a href="/reviews.html">Reviews</a></li>
+        <li><a href="/contacto.html">Contacto</a></li>
+        <li><a href="/nosotros.html">Nosotros</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="message">
+      <h2>Cotización Procesada</h2>
+      <p>Tu solicitud de cotización ha sido recibida y está en proceso.</p>
+      <a href="/index.html" class="btn">Volver al Inicio</a>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 YYCD_Performance. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
